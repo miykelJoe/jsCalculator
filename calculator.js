@@ -7,7 +7,6 @@ let multiply = firstNumber * secondNumber;
 let divide = firstNumber / secondNumber;
 let addition = (Number (firstNumber)) + (Number (secondNumber));
 let subtraction = firstNumber - secondNumber;
-let modulus = firstNumber % secondNumber;
 
 
 if (chooseOperator === '*'){
@@ -18,8 +17,6 @@ if (chooseOperator === '*'){
     alert('Your answer is ' + firstNumber +  ' + ' + secondNumber + ' = ' + addition);
 }else if (chooseOperator === '-'){
     alert('Your answer is ' + firstNumber +  ' - ' + secondNumber + ' = ' + subtraction);
-}else if (chooseOperator === '%'){
-    alert('Your answer is ' + firstNumber +  ' % ' + secondNumber + ' = ' + modulus);
 }else {
     alert('The operator you chose is not a valid operator.');
 }
