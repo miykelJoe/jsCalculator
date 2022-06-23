@@ -1,4 +1,4 @@
-let chooseOperator = prompt('Choose the operation you want to perform * / + - %');
+let chooseOperator = prompt('Choose the operation you want to perform multiplication (*), division (/), addition (+), or subtraction (-)');
 
 let firstNumber = prompt('Enter first figure');
 let secondNumber = prompt('Enter second figure... ' + firstNumber + ' ' + chooseOperator);
